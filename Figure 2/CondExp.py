@@ -5,11 +5,10 @@ import pandas as pd
 
 # === FUNCTIONAL OVERVIEW ===
 # This script analyzes "regression to the mean" in building energy use by:
-# 1. Standardizing GJ (energy) data by year.
+# 1. Standardizing energy (GJ) data by year.
 # 2. Using 2009 data as a baseline (X1) to identify buildings above/below various thresholds.
 # 3. Computing conditional expectations for each threshold and each subsequent year (X2).
 # 4. Creating a faceted line plot comparing conditional expectations over time.
-# 5. Enhancing the plot with LaTeX-style labels, grouping, and visual markers.
 
 # === Load and Prepare Data ===
 data = myTools.load_data('cleaned_Time_Series.csv')

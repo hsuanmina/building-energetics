@@ -5,7 +5,7 @@ This repository contains the data processing workflows and visualization code us
 
 Using a combination of statistical analysis and high-resolution visualizations, the repository provides tools to explore year-over-year trends between buildings and energy consumption.
 
-All plots in the paper were generated from the scripts in this repository, except the MIT buildings map, which was made using Adobe Illustrator.
+All plots in the paper were generated from the scripts in this repository, except the MIT buildings map, which was made using Adobe Illustrator 2025.
 
 ## Data Sources
 The data used in this project originates from Project Energize_MIT, housed within the MIT Sustainability Datapool. After extensive preprocessing and quality checks, a cleaned version of the dataset was imported and used across all scripts in this repository.

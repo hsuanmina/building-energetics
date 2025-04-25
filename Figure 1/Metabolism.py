@@ -5,13 +5,13 @@ from sklearn.linear_model import LinearRegression
 
 # === Functionality Overview ===
 # This script:
-# 1. Loads time series energy data and CY2023 building metadata.
+# 1. Loads Time Series data and CY2023 building data.
 # 2. Filters the main dataset to only include buildings present in the 2023 data.
 # 3. Merges building volume and log-transformed building characteristics into the main dataset.
 # 4. Selects buildings that started use in 2024.
 # 5. Fits a log-log linear regression model of energy use (GJ) vs. building volume.
 # 6. Visualizes the results using plotnine with a regression line and annotations.
-# 7. Saves the resulting plot as a PNG file.
+# 7. Saves the resulting plot.
 
 # === Load and Preprocess Data ===
 # Load cleaned time series data and CY2023 data

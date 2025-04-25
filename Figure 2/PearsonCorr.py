@@ -7,7 +7,7 @@ from scripts import myTools
 # === Overview ===
 # This script analyzes the persistence of building-level residuals in energy scaling
 # by computing the Pearson correlation between each year's residuals and the baseline year (2009).
-# The output is a year-by-year trend plot showing how similar the residual structure is compared to 2009.
+# The output is a year-by-year trend (pearson correlation) plot showing how similar the residual structure is compared to 2009.
 
 # === Load Residual Data ===
 residuals = myTools.load_data('residuals.csv')
