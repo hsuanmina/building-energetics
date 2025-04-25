@@ -33,9 +33,8 @@ pip install -r requirements.txt
 Clone the repository:
 ```bash
 git clone https://github.com/hsuanmina/building-energetics.git
-cd building-energetics# building-energetics
+cd building-energetics
 ```
-Ensure that the data/ folder contains the cleaned datasets (cleaned_Time_Series.csv and cleaned_CY2023.csv), either by using the ones provided or reproducing them from the raw MIT Sustainability Datapool.
 
 ## Contact
 For questions, suggestions, or collaboration opportunities, please contact:  
